@@ -51,7 +51,6 @@ Before you begin, ensure you have the following installed:
 
 ## Project Structure
 
-    ```bash
     your-project/
     ├── src/                    # Source files for the application
     │   ├── index.ts            # Entry point for the application
@@ -70,7 +69,6 @@ Before you begin, ensure you have the following installed:
 
 ## Environment Variables
 
-    ```bash
     PORT=4000
     DB_HOST=localhost
     DB_USER=username
@@ -89,7 +87,6 @@ Before you begin, ensure you have the following installed:
     
     ```bash
     yarn start:dev
-
 
 ## Run in Production
 
