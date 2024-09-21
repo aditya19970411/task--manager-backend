@@ -1,13 +1,4 @@
-# task--manager-backend
-Task manager backend
-
-To run the server follow below steps
- 1. Add the env file with name .env and keys from env.example file
- 2. use docker compose file to run postgres or use postgres from local server
- 3. isntall node module using yarn install
- 4. run server using yarn start:dev for developement mode or yarn build && yarn start for production version
-
- # Node.js TypeScript Project
+# Node.js TypeScript Project
 
 This is a **Node.js** application built with **TypeScript** for enhanced type safety and developer experience. This project follows a standard structure for Node.js applications with TypeScript and includes basic setup for development and production environments.
 
@@ -70,8 +61,9 @@ Before you begin, ensure you have the following installed:
     PORT=4000
     DB_HOST=localhost
     DB_USER=username
-    DB_PASSWORD=password
-    JWT_SECRET=mysecretkey
+    DB_PASS=password
+    DB_PORT=5432
+    DB_NAME=task-manager
 
 ## Run in Development
 
