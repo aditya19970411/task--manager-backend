@@ -38,16 +38,15 @@ Before you begin, ensure you have the following installed:
 
 2. Navigate to the project directory:
 
-    ```
+    ```bash
     cd your-project
 
 3. Install the project dependencies:
 
-    ```
+    ```bash
     yarn install
     # or use npm
     npm install
-
 
 ## Project Structure
 
@@ -66,7 +65,6 @@ Before you begin, ensure you have the following installed:
     ├── .gitignore              # Files and directories to ignore in version control
     └── README.md               # This file
 
-
 ## Environment Variables
 
     PORT=4000
@@ -74,7 +72,6 @@ Before you begin, ensure you have the following installed:
     DB_USER=username
     DB_PASSWORD=password
     JWT_SECRET=mysecretkey
-
 
 ## Run in Development
 
